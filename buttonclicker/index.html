@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="nav">
+            <h1 class="title"> Dojonary </h1>
+            <input type="text" placeholder="Search.." class="search">
+            <button class="login" onclick="logout(this)"> Login </button>
+        </div>  
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- start of first column-->
+            <div class="col1">
+                <div class="box">
+                    <div class="boxspace">
+                        <h1 class="word"> Ninja </h1>
+                        <h2 class="noun"> noun </h2>
+                        <h3 class="plural"> Plural: ninjas</h3>
+                        <button class="like" onclick="alert('Ninja was liked')"> 17 likes </button>
+                    </div>
+                    <div class="boxspace2">
+                        <p class="def">A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">Ninjutsu</a></p>
+                    </div>
+                </div>
+
+                <div class="box"> 
+                    <div class="boxspace">
+                        <h1 class="word"> Ninja </h1>
+                        <h2 class="noun"> noun </h2>
+                        <h3 class="plural"> Plural: ninjas</h3>
+                        <button class="like" onclick="alert('Ninja was liked')"> 37 likes </button>
+                    </div>
+                    <div class="boxspace2">
+                        <p class="def">A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <!-- start of second column-->
+            <div class="col2">
+                <div class="box">
+                    <h2 class="dojonary"> Dojonary is defined by YOU</h2>
+                    <button class="adddef" onclick="hide(this)"> Add Definition </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script> 
+</body>
+</html>
